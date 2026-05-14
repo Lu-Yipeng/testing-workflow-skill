@@ -1,0 +1,7 @@
+interface:
+  display_name: "测试工作流"
+  short_description: "一套通用的开发后测试与回归规划方法"
+  default_prompt: "当用户需要结构化测试工作流、回归方案或可复用的质量策略时，使用 $testing-workflow。"
+
+policy:
+  allow_implicit_invocation: true
