@@ -26,6 +26,10 @@ Benchmark 的用途可以是：
 - 重复出现的 bad case
 - 具体工作流的回归案例
 
+一句话原则：
+
+`benchmark 用来校准能力基线，真实业务用来驱动能力生长。`
+
 ## 反模式 2：默认走纯探索
 
 纯探索式测试不应成为默认骨架。
@@ -41,6 +45,8 @@ Benchmark 的用途可以是：
 优先采用：
 
 `instruction-driven testing + domain knowledge + bounded execution`
+
+这不是对终局形态的否定，而是当前阶段必要的工程补偿。
 
 探索仍然可以作为补充，适用于：
 

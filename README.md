@@ -52,6 +52,17 @@ This skill is built around a few opinions:
 5. PRD is the main starting point when it exists, but it is not the only fact source.
 6. When PRD, code, and runtime behavior conflict, the conflict itself must be recorded explicitly.
 
+## Design Principles
+
+- **Bad-case-driven evolution**  
+  Real bad cases are not just failures to archive. They are the main fuel for capability growth.
+
+- **Stage-aware engineering compensation**  
+  When full autonomy is not stable enough, guided paths, domain knowledge, and explicit boundaries are valid engineering choices.
+
+- **Real business over benchmark chasing**  
+  Benchmarks provide a baseline. Real workflow success determines whether the capability is actually useful.
+
 ## The Six-Step Workflow
 
 1. Intent Identification
